@@ -1,0 +1,33 @@
+{
+  "name": "secondary-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-cli serve --mode \"development\"",
+    "build": "webpack-cli --mode \"production\"",
+    "deploy": ""
+  },
+  "keywords": [
+    "React",
+    "Webpack",
+    "module",
+    "federation"
+  ],
+  "author": "Drobenyuk.A",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "bundle-loader": "^0.5.6",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
